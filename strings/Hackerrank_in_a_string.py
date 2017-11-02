@@ -1,6 +1,4 @@
-import sys
-
-proof = list("hackerrank")
+proof = list('hackerrank')
 q = int(input().strip())
 for a0 in range(q):
     s = input().strip()
@@ -15,4 +13,3 @@ for a0 in range(q):
         cnt += 1
     if cnt == len(proof):
         print("YES")
-
